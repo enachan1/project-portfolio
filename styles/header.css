@@ -10,6 +10,10 @@
     
 }
 .hidden-bars {
+    display: inline-block;
+    cursor: pointer;
+    background: none;
+    border: 0;
     color: var(--clr-slate700);
     /* background-color: red; */
     width: var(--size-4xl);
@@ -39,7 +43,7 @@
         text-decoration: none;
         color: var(--clr-slate700);
         transition: color 0.2s ease;
-        font-size: 1.25em;
+        font-size: 1.1em;
     }
     .nav-hd__link:hover {
         color: var(--clr-sky300);
@@ -53,7 +57,7 @@
 /* lg */
 @media (min-width: 1024px) {
     .nav-hd__ul {
-        font-size: var(--size-md);
+        font-size: var(--size-sm);
     }
     
 }

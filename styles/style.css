@@ -1,6 +1,6 @@
 :root {
   --clr-slate100: #f5f5f5;
-  --clr-sky300: #7dd3fc;
+  --clr-sky300: rgb(125, 211, 252);
   --clr-slate700: #334155;
 
 
@@ -38,21 +38,31 @@ body {
   background-color: var(--clr-slate100);
 }
 
-button {
+.button {
   display: inline-block;
   cursor: pointer;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
   background: none;
   border: 0;
+  background-color: var(--clr-sky300);
+  box-shadow: 0px 7px 15px 0px rgba(125,211,252,1);
   color: inherit;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 9px 18px 0px rgba(125,211,252,1);
 }
 
 .container {
+  /* border: 1px solid tomato; */
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   padding-left: 1em;
   padding-right: 1em;
-  border: 1px solid red;
 }
 
 img,
