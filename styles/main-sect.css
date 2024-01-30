@@ -26,6 +26,9 @@
     align-items: center;
     gap: 0.75rem;
 }
+.main__h4 {
+    font-size: var(--size-base);
+}
 .main__h1 {
     color: var(--clr-slate700);
     font-size: var(--size-3xl);
@@ -85,6 +88,9 @@
     .main__text-content {
         flex: 5;
     }
+    .main__h4 {
+        font-size: var(--size-xl);
+    }
 }
   
   
@@ -98,6 +104,13 @@
     }
     .main__text-content {
         gap: 1.5rem;
+    }
+    .main__h4 {
+        font-size: var(--size-3xl);
+    }
+    .main__img {
+        width: 400px;
+        height: 400px;
     }
 }
 
