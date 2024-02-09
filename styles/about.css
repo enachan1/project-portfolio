@@ -1,0 +1,148 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__h1 {
+    position: relative;
+    color: var(--clr-slate700);
+}
+.about__in-text {
+    animation: fadeIn 1.5s ease-in forwards;
+}
+/* .about__mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--clr-sky300);
+    animation: slideIn 1s ease;
+} */
+
+.about__img {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.about__text {
+    font-size: var(--size-sm);
+}
+
+/*effect animation */
+@keyframes slideIn {
+    0% {
+        width: 0%;
+        left: 0%;
+    }
+    50% {
+        width: 100%;
+        left: 0%;
+    }
+    100% {
+        width: 0%;
+        left: 100%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+
+
+
+/* xs */
+@media (min-width: 475px) {
+    .about__img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .about__text {
+        font-size: var(--size-sm);
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+    .about__img {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .about__text {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: var(--size-base);
+    }
+}
+  
+/* lg */
+@media (min-width: 1024px) {
+    .about__img {
+        width: 450px;
+        height: 450px;
+    }
+    .about__text {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: var(--size-base);
+    }
+    .about__content {
+        flex-direction: row-reverse;
+        gap: 1.5rem;
+    }
+    .about__h1 {
+        font-size: var(--size-3xl);
+    }
+}
+  
+  
+/* xl */
+@media (min-width: 1280px) {
+    .about__img {
+        width: 500px;
+        height: 500px;
+    }
+    .about__text {
+        font-size: var(--size-lg);
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .about__content {
+        flex-direction: row-reverse;
+        gap: 1.5rem;
+    }
+    .about__h1 {
+        font-size: var(--size-5xl);
+    }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
