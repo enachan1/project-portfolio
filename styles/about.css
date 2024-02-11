@@ -15,6 +15,12 @@
     justify-content: center;
     align-items: center;
 }
+.about__h1-cont {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 .about__h1 {
     position: relative;
     color: var(--clr-slate700);
