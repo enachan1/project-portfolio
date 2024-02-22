@@ -4,8 +4,8 @@
     gap: 5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .about__content {
@@ -26,23 +26,8 @@
     color: var(--clr-slate700);
 }
 
-.about__mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: var(--clr-sky300);
-}
-
-.fade-anim {
-    animation: fadeIn 1.45s ease-in forwards;
-}
-.animate-mask {
-    animation: slideIn 1s ease;
-}
-
 .about__img {
+    position: relative;
     border-radius: 15px;
     width: 300px;
     height: 300px;

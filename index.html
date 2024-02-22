@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" sizes="32x32" href="ryo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,8 @@
         <ul class="nav-hd__ul">
           <li><a href="#" class="nav-hd__link">Home</a></li>
           <li><a href="#about" class="nav-hd__link">About Me</a></li>
-          <li><a href="#" class="nav-hd__link">Skills</a></li>
-          <li><a href="#" class="nav-hd__link">Projects</a></li>
-          <li><a href="#" class="nav-hd__link">Contact</a></li>
+          <li><a href="#projects" class="nav-hd__link">Projects</a></li>
+          <li><a href="#contact" class="nav-hd__link">Contact</a></li>
         </ul>
         <button class="hidden-bars">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -61,12 +60,12 @@
         <div class="about__h1-cont">
           <h1 class="about__h1">
             <span class="anim1">About Me</span>
-            <span class="anim about__mask"></span>
+            <span class="anim mask"></span>
           </h1>
         </div>
         
         <div class="about__content">
-          <img class="about__img" src="/nurbek.webp" alt="me">
+            <img class="about__img anim1" src="/nurbek.webp" alt="me">
         <p class="about__text">
           
           <span class="anim1">My name is <strong>Nhorlvick Mangampo</strong>, a BS Information Technology student in <strong>STI College Meycauayan</strong> that aims to become a web developer. Though, i have experiences to various programming language which is being taught in our school but i have the grasp of the fundamentals of it. I was once competed in our school coding competition which is called <strong>CodeFest</strong> that consist of 4 members that develops a mobile application using Android Studio Java.
@@ -74,13 +73,56 @@
           <br>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat sapien non nisi facilisis, id porta massa tristique. Aliquam eget fermentum sem. Etiam pharetra sed elit eget vulputate. Pellentesque fermentum, eros eget aliquet interdum, dui massa dapibus nisl, eu bibendum velit odio id erat. Integer aliquet velit erat, quis fringilla est fermentum at. Phasellus sollicitudin nulla est, vitae accumsan diam rhoncus eget. Ut ut elementum eros. Vivamus vulputate arcu felis. Vivamus faucibus in nibh eget sagittis. Proin ut bibendum nunc, sollicitudin pretium metus. Nam et mi hendrerit, maximus lorem quis, egestas metus. Quisque eros quam, consectetur sit amet lorem nec, tempor pharetra lacus. Vivamus augue ipsum, iaculis in fringilla vitae, egestas sit amet augue. Quisque tempor hendrerit massa non consectetur.
           </span>
-          <span class="anim about__mask"></span>
+          <span class="anim mask"></span>
         </p>
 
       </div>
       </section>
-      <section></section>
-      <section></section>
+      <section class="container skills">
+        <div class="skills__h1-cont">
+          <h1 class="skills__h1">
+            <span class="anim1">Tech Stack</span>
+            <span class="anim mask"></span>
+          </h1>
+        </div>
+        <hr>
+        <div class="skills__icons">
+            <!-- <div class="skills__icons-slide"> -->
+              <img src="/html.png" alt="">
+              <img src="/css.png" alt="">
+              <img src="/js.png" alt="">
+              <img src="/php.png" alt="">
+              <img src="/mysql.png" alt="">
+              <img src="/java.png" alt="">
+              <img src="/python.png" alt="">
+              <img src="/csharp.png" alt="">
+            <!-- </div> -->
+        </div>
+        <hr>
+      </section>
+      <section class="container projects" id="projects">
+        <div class="project__header">
+            <h1 class="projects__h1">
+              <span class="anim1">Projects</span>
+              <span class="anim mask"></span>
+            </h1>
+          </div>
+          <div class="project__title anim1">
+            <h3 class="project__cont-title">Jun&Cathy Grocery POS and Inventory</h3>
+          </div>
+          <div class="project__cont anim1">
+            <img src="/juncathy.png" title="no picture since im kinda lazy to screenshot it but soon i will do it" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non diam vitae diam efficitur molestie. Aliquam erat volutpat. Quisque consectetur maximus lectus, egestas porttitor erat maximus vel. Sed erat arcu, bibendum nec diam in, lobortis blandit sapien. Nullam lacus massa, dignissim vestibulum turpis vitae, vehicula porta ante. Aenean faucibus tortor in neque efficitur, id euismod metus commodo. Proin diam tortor, tempor quis nulla sit amet, efficitur rutrum mi. Quisque et dignissim nulla. Praesent vitae ligula lacus. Suspendisse a nunc vitae lacus pretium finibus. In hac habitasse platea dictumst. Curabitur pharetra varius bibendum. Fusce pretium iaculis magna, quis vestibulum velit pellentesque non.</p>
+          </div>
+          <div class="project__title anim1">
+            <h3 class="project__cont-title">Enrollment System</h3>
+          </div>
+          <div class="project__cont-2 anim1">
+            <img src="https://via.placeholder.com/500" title="no picture since im kinda lazy to screenshot it but soon i will do it" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non diam vitae diam efficitur molestie. Aliquam erat volutpat. Quisque consectetur maximus lectus, egestas porttitor erat maximus vel. Sed erat arcu, bibendum nec diam in, lobortis blandit sapien. Nullam lacus massa, dignissim vestibulum turpis vitae, vehicula porta ante. Aenean faucibus tortor in neque efficitur, id euismod metus commodo. Proin diam tortor, tempor quis nulla sit amet, efficitur rutrum mi. Quisque et dignissim nulla. Praesent vitae ligula lacus. Suspendisse a nunc vitae lacus pretium finibus. In hac habitasse platea dictumst. Curabitur pharetra varius bibendum. Fusce pretium iaculis magna, quis vestibulum velit pellentesque non.</p>
+          </div>
+        
+      </section>
     </main>
     <footer class="footer">
       <p>Work in Progress</p>

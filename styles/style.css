@@ -75,6 +75,24 @@ svg {
   user-select: none;
 }
 
+/* for animation */
+.fade-anim {
+  animation: fadeIn 1.45s ease-in forwards;
+}
+
+.animate-mask {
+  animation: slideIn 1s ease;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--clr-sky300);
+}
+
 
 /* xs */
 @media (min-width: 475px) {
