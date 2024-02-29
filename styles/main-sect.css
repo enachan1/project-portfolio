@@ -42,7 +42,7 @@
 }
 
 .main__subtitle {
-    font-size: var(--size-xs);
+    font-size: var(--size-sm);
 }
 .main__imgdiv {
     display: flex;
@@ -62,7 +62,7 @@
         font-size: var(--size-5xl);
     }
     .main__subtitle {
-        font-size: var(--size-sm);
+        font-size: var(--size-base);
     }
 }
   
