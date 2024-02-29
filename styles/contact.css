@@ -26,6 +26,7 @@
     max-width: 50ch;
     font-size: var(--size-base);
     font-weight: 500;
+    color: var(--clr-slate700);
 }
 
 .contact__h1 {
