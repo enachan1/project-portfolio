@@ -93,6 +93,7 @@
     }
     .contact__img {
         height: 400px;
+        margin-right: 3rem;
     }
   }
   
@@ -101,6 +102,10 @@
   @media (min-width: 1280px) {
     .contact__h1 {
         font-size: var(--size-5xl);
+    }
+    .contact__img {
+        height: 400px;
+        margin-right: 2rem;
     }
   }
   
