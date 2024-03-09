@@ -66,10 +66,6 @@
   
 /* lg */
 @media (min-width: 1024px) {
-    .about__h1-cont {
-        justify-content: start;
-    }
-
    .about__content {
     flex-direction: row-reverse;
     gap: 5rem;
@@ -95,6 +91,9 @@
   
 /* xl */
 @media (min-width: 1280px) {
+    .about__h1-cont {
+        justify-content: start;
+    }
     .about__text {
         font-size: var(--size-xl);
        }
