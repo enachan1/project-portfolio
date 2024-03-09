@@ -1,0 +1,34 @@
+.loader {
+    background-color: var(--clr-slate100);
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.loader_container {
+    padding: 16px;
+}
+.loader_container img {
+    padding: 5px;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.animateLoad {
+    animation: loadUp 500ms ease;
+}
+
+@keyframes loadUp {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

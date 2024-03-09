@@ -9,6 +9,8 @@ const fade_lazyLoad = () => {
                     observer.unobserve(entry.target);
                 }
             });
+        }, {
+            threshold: 0
         });
 
         animate.forEach(animText => {

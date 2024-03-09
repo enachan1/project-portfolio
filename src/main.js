@@ -8,12 +8,15 @@ import '../styles/skills.css'
 import '../styles/project.css'
 import '../styles/contact.css'
 import '../styles/mobile-nav.css'
+import '../styles/loader.css'
 
 import lazyLoad from './lazyLoad'
 import fade_lazyLoad from './lazyLoad_fade'
 import mobileNav from './mobile_nav'
+import loader from './loader'
 
 
 lazyLoad();
 fade_lazyLoad();
 mobileNav();
+loader();

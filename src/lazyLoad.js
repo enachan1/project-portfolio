@@ -9,6 +9,8 @@ const lazyLoad = () => {
                     observer.unobserve(entry.target);
                 }
             });
+        }, {
+            threshold: 1
         });
 
         animate.forEach(animText => {
