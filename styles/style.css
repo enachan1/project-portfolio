@@ -77,14 +77,33 @@ svg {
 }
 
 /* for animation */
+.anim-opa {
+  opacity: 0;
+}
+
 .fade-anim {
-  animation: fadeIn 1.45s ease-in forwards;
+  animation: fadeIn 1s ease forwards;
 }
 
 .animate-mask {
-  animation: slideIn 1s ease;
+  animation: slideIn 1s ease forwards;
 }
 
+.fade-anim.fade-about-delayed {
+  animation: fadeIn 1.3s ease .5s forwards;
+}
+.fade-anim.fade-about-delayed2 {
+  animation: fadeIn 1.3s ease .8s forwards;
+}
+.animate-mask.mask-about-delayed {
+  animation: slideIn 1s ease .5s forwards;
+}
+.animate-mask.mask-about-delayed2 {
+  animation: slideIn 1s ease .8s forwards;
+}
+.fade-anim.project-fade {
+  animation: fadeIn 1s ease-in .3s forwards;
+}
 .mask {
   position: absolute;
   top: 0;
@@ -126,7 +145,7 @@ svg {
   50% {
       opacity: 0;
   }
-  80%, 100% {
+  100% {
       opacity: 1;
   }
   
