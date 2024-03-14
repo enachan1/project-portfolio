@@ -19,7 +19,7 @@
 }
 
 .animateLoad {
-    animation: loadUp 1 ease;
+    animation: loadUp 1s ease;
 }
 
 @keyframes loadUp {
