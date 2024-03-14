@@ -88,7 +88,14 @@ svg {
 .animate-mask {
   animation: slideIn 1s ease forwards;
 }
-
+/* for headers */
+.fade-anim.fade-header {
+  animation: fadeIn 1.3s ease .4s forwards;
+}
+.animate-mask.mask-header {
+  animation: slideIn 1s ease .4s forwards;
+}
+/* for animation content */
 .fade-anim.fade-about-delayed {
   animation: fadeIn 1.3s ease .5s forwards;
 }
@@ -101,6 +108,7 @@ svg {
 .animate-mask.mask-about-delayed2 {
   animation: slideIn 1s ease .8s forwards;
 }
+
 .fade-anim.project-fade {
   animation: fadeIn 1s ease-in .3s forwards;
 }
