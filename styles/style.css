@@ -95,7 +95,8 @@ svg {
 .animate-mask.mask-header {
   animation: slideIn 1s ease .4s forwards;
 }
-/* for animation content */
+
+/* for about me animation content */
 .fade-anim.fade-about-delayed {
   animation: fadeIn 1.3s ease .5s forwards;
 }
@@ -108,9 +109,33 @@ svg {
 .animate-mask.mask-about-delayed2 {
   animation: slideIn 1s ease .8s forwards;
 }
-
+/* Project Fade */
 .fade-anim.project-fade {
   animation: fadeIn 1s ease-in .3s forwards;
+}
+
+/* Contact animation */
+
+.fade-anim.contact-header {
+  animation: fadeIn 1.3s ease .5s forwards;
+}
+.animate-mask.contact-mask-header {
+  animation: slideIn 1s ease .5s forwards;
+}
+
+.fade-anim.fade-contact-img {
+  animation: fadeIn 1.3s ease .7s forwards;
+}
+
+.animate-mask.slide-contact-img {
+  animation: slideIn 1s ease .7s forwards;
+}
+
+.fade-anim.fade-contact-txt {
+  animation: fadeIn 1s ease .8s forwards;
+}
+.animate-mask.slide-contact-txt {
+  animation: slideIn 1s ease .8s forwards;
 }
 .mask {
   position: absolute;
