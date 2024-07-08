@@ -48,6 +48,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 450px;
+    max-height: 300px;
 }
 
 /* xs */
@@ -108,8 +110,8 @@
         font-size: var(--size-3xl);
     }
     .main__img {
-        width: 400px;
-        height: 400px;
+        width: 450px;
+        height: 490px;
     }
 }
 
